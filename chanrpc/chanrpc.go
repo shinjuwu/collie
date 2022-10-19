@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"collie/conf"
-	"collie/log"
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/log"
 )
 
 // one server per goroutine (goroutine not safe)

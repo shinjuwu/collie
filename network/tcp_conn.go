@@ -1,9 +1,10 @@
 package network
 
 import (
-	"collie/log"
 	"net"
 	"sync"
+
+	"github.com/shinjuwu/collie/log"
 )
 
 type ConnSet map[net.Conn]struct{}

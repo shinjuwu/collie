@@ -1,8 +1,9 @@
 package util_test
 
 import (
-	"collie/util"
 	"fmt"
+
+	"github.com/shinjuwu/collie/util"
 )
 
 func ExampleMap() {

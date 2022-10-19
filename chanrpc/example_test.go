@@ -1,9 +1,10 @@
 package chanrpc_test
 
 import (
-	"collie/chanrpc"
 	"fmt"
 	"sync"
+
+	"github.com/shinjuwu/collie/chanrpc"
 )
 
 func Example() {

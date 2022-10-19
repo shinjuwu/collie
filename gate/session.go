@@ -3,7 +3,7 @@ package gate
 import (
 	fmt "fmt"
 
-	"collie/chanrpc"
+	"github.com/shinjuwu/collie/chanrpc"
 
 	"github.com/golang/protobuf/proto"
 )

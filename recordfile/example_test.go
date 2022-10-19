@@ -1,8 +1,9 @@
 package recordfile_test
 
 import (
-	"collie/recordfile"
 	"fmt"
+
+	"github.com/shinjuwu/collie/recordfile"
 )
 
 func Example() {

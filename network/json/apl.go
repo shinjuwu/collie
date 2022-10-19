@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"reflect"
 
-	"collie/chanrpc"
+	"github.com/shinjuwu/collie/chanrpc"
 
-	"collie/log"
+	"github.com/shinjuwu/collie/log"
 )
 
 type NeooneProcessor struct {

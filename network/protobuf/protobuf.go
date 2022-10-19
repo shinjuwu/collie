@@ -1,13 +1,14 @@
 package protobuf
 
 import (
-	"collie/chanrpc"
-	"collie/log"
 	"encoding/binary"
 	"errors"
 	"fmt"
 	"math"
 	"reflect"
+
+	"github.com/shinjuwu/collie/chanrpc"
+	"github.com/shinjuwu/collie/log"
 
 	"github.com/golang/protobuf/proto"
 )

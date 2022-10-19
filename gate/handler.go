@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
-	"collie/log"
-	"collie/util"
+	"github.com/shinjuwu/collie/log"
+	"github.com/shinjuwu/collie/util"
 )
 
 type handler struct {

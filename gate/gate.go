@@ -3,8 +3,8 @@ package gate
 import (
 	"time"
 
-	"collie/chanrpc"
-	"collie/network"
+	"github.com/shinjuwu/collie/chanrpc"
+	"github.com/shinjuwu/collie/network"
 )
 
 type Gate struct {

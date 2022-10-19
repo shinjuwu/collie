@@ -1,9 +1,10 @@
 package g_test
 
 import (
-	"collie/go"
 	"fmt"
 	"time"
+
+	g "github.com/shinjuwu/collie/go"
 )
 
 func Example() {
@@ -24,7 +25,7 @@ func Example() {
 	d.Go(func() {
 		fmt.Print("My name is ")
 	}, func() {
-		fmt.Println("collie")
+		fmt.Println("github.com/shinjuwu/collie")
 	})
 
 	d.Close()
@@ -32,7 +33,7 @@ func Example() {
 	// Output:
 	// 1 + 1 = ?
 	// 2
-	// My name is collie
+	// My name is github.com/shinjuwu/collie
 }
 
 func ExampleLinearContext() {

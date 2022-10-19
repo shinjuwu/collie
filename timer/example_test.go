@@ -1,9 +1,10 @@
 package timer_test
 
 import (
-	"collie/timer"
 	"fmt"
 	"time"
+
+	"github.com/shinjuwu/collie/timer"
 )
 
 func ExampleTimer() {
@@ -11,7 +12,7 @@ func ExampleTimer() {
 
 	// timer 1
 	d.AfterFunc(1, func() {
-		fmt.Println("My name is collie")
+		fmt.Println("My name is github.com/shinjuwu/collie")
 	})
 
 	// timer 2
@@ -24,7 +25,7 @@ func ExampleTimer() {
 	(<-d.ChanTimer).Cb()
 
 	// Output:
-	// My name is collie
+	// My name is github.com/shinjuwu/collie
 }
 
 func ExampleCronExpr() {
@@ -55,7 +56,7 @@ func ExampleCron() {
 	// cron
 	var c *timer.Cron
 	c = d.CronFunc(cronExpr, func() {
-		fmt.Println("My name is collie")
+		fmt.Println("My name is github.com/shinjuwu/collie")
 		c.Stop()
 	})
 
@@ -63,5 +64,5 @@ func ExampleCron() {
 	(<-d.ChanTimer).Cb()
 
 	// Output:
-	// My name is collie
+	// My name is github.com/shinjuwu/collie
 }

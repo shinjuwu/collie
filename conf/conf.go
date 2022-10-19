@@ -10,7 +10,7 @@ var (
 
 	// console
 	ConsolePort   int
-	ConsolePrompt string = "collie# "
+	ConsolePrompt string = "github.com/shinjuwu/collie# "
 	ProfilePath   string
 
 	// cluster

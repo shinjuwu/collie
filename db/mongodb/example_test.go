@@ -1,8 +1,9 @@
 package mongodb_test
 
 import (
-	"collie/db/mongodb"
 	"fmt"
+
+	"github.com/shinjuwu/collie/db/mongodb"
 	"gopkg.in/mgo.v2"
 )
 

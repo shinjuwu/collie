@@ -1,10 +1,11 @@
 package module
 
 import (
-	"collie/conf"
-	"collie/log"
 	"runtime"
 	"sync"
+
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/log"
 )
 
 type Module interface {

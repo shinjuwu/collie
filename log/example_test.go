@@ -1,11 +1,11 @@
 package log_test
 
 import (
-	"collie/log"
+	"github.com/shinjuwu/collie/log"
 )
 
 func Example() {
-	name := "collie"
+	name := "github.com/shinjuwu/collie"
 
 	log.Debug("My name is %v", name)
 	log.Release("My name is %v", name)

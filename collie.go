@@ -1,11 +1,11 @@
 package collie
 
 import (
-	"collie/cluster"
-	"collie/conf"
-	"collie/console"
-	"collie/log"
-	"collie/module"
+	"github.com/shinjuwu/collie/cluster"
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/console"
+	"github.com/shinjuwu/collie/log"
+	"github.com/shinjuwu/collie/module"
 	"os"
 	"os/signal"
 )
@@ -21,7 +21,7 @@ func Run(mods ...module.Module) {
 		defer logger.Close()
 	}
 
-	log.Info("collie starting up")
+	log.Info("github.com/shinjuwu/collie starting up")
 
 	// module
 	for i := 0; i < len(mods); i++ {
@@ -39,7 +39,7 @@ func Run(mods ...module.Module) {
 	c := make(chan os.Signal, 1)
 	signal.Notify(c, os.Interrupt, os.Kill)
 	sig := <-c
-	log.Info("collie closing down (signal: %v)", sig)
+	log.Info("github.com/shinjuwu/collie closing down (signal: %v)", sig)
 	console.Destroy()
 	cluster.Destroy()
 	module.Destroy()

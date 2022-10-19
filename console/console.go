@@ -2,11 +2,12 @@ package console
 
 import (
 	"bufio"
-	"collie/conf"
-	"collie/network"
 	"math"
 	"strconv"
 	"strings"
+
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/network"
 )
 
 var server *network.TCPServer

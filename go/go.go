@@ -1,11 +1,12 @@
 package g
 
 import (
-	"collie/conf"
-	"collie/log"
 	"container/list"
 	"runtime"
 	"sync"
+
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/log"
 )
 
 // one Go per goroutine (goroutine not safe)

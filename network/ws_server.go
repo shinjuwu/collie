@@ -1,12 +1,13 @@
 package network
 
 import (
-	"collie/log"
 	"crypto/tls"
 	"net"
 	"net/http"
 	"sync"
 	"time"
+
+	"github.com/shinjuwu/collie/log"
 
 	"github.com/gorilla/websocket"
 )

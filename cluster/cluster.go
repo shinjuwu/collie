@@ -1,10 +1,11 @@
 package cluster
 
 import (
-	"collie/conf"
-	"collie/network"
 	"math"
 	"time"
+
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/network"
 )
 
 var (

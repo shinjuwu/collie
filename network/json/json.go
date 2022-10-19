@@ -1,12 +1,13 @@
 package json
 
 import (
-	"collie/chanrpc"
-	"collie/log"
 	"encoding/json"
 	"errors"
 	"fmt"
 	"reflect"
+
+	"github.com/shinjuwu/collie/chanrpc"
+	"github.com/shinjuwu/collie/log"
 )
 
 type Processor struct {

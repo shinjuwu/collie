@@ -5,7 +5,7 @@ import (
 	"net"
 	"sync"
 
-	"collie/log"
+	"github.com/shinjuwu/collie/log"
 
 	"github.com/gorilla/websocket"
 )

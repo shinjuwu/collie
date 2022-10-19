@@ -1,4 +1,4 @@
-module collie
+module github.com/shinjuwu/collie
 
 go 1.19
 

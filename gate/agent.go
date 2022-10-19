@@ -4,10 +4,10 @@ import (
 	"net"
 	"reflect"
 
-	"collie/util"
+	"github.com/shinjuwu/collie/util"
 
-	"collie/log"
-	"collie/network"
+	"github.com/shinjuwu/collie/log"
+	"github.com/shinjuwu/collie/network"
 )
 
 type agent struct {

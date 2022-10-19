@@ -1,10 +1,11 @@
 package timer
 
 import (
-	"collie/conf"
-	"collie/log"
 	"runtime"
 	"time"
+
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/log"
 )
 
 // one dispatcher per goroutine (goroutine not safe)

@@ -1,9 +1,10 @@
 package network
 
 import (
-	"collie/log"
 	"sync"
 	"time"
+
+	"github.com/shinjuwu/collie/log"
 
 	"github.com/gorilla/websocket"
 )

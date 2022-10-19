@@ -1,14 +1,15 @@
 package console
 
 import (
-	"collie/chanrpc"
-	"collie/conf"
-	"collie/log"
 	"fmt"
 	"os"
 	"path"
 	"runtime/pprof"
 	"time"
+
+	"github.com/shinjuwu/collie/chanrpc"
+	"github.com/shinjuwu/collie/conf"
+	"github.com/shinjuwu/collie/log"
 )
 
 var commands = []Command{

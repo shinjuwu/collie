@@ -1,10 +1,11 @@
 package network
 
 import (
-	"collie/log"
 	"net"
 	"sync"
 	"time"
+
+	"github.com/shinjuwu/collie/log"
 )
 
 type TCPClient struct {

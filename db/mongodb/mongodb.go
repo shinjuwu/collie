@@ -5,7 +5,7 @@ import (
 	"sync"
 	"time"
 
-	"collie/log"
+	"github.com/shinjuwu/collie/log"
 
 	"gopkg.in/mgo.v2"
 	"gopkg.in/mgo.v2/bson"

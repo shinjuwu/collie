@@ -3,10 +3,10 @@ package module
 import (
 	"time"
 
-	"collie/chanrpc"
-	"collie/console"
-	g "collie/go"
-	"collie/timer"
+	"github.com/shinjuwu/collie/chanrpc"
+	"github.com/shinjuwu/collie/console"
+	g "github.com/shinjuwu/collie/go"
+	"github.com/shinjuwu/collie/timer"
 )
 
 type Skeleton struct {
